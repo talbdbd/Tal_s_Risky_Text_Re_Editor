@@ -1,33 +1,23 @@
-# Stage 1: Build
-FROM node:16 as build
+# Use the official Node.js image.
+FROM node:14
 
-WORKDIR /app
+# Create and change to the app directory.
+WORKDIR /usr/src/app
 
-# Copy both client and server package.json files
-COPY client/package.json client/package-lock.json ./client/
-COPY server/package.json server/package-lock.json ./server/
+# Copy package.json and package-lock.json.
+COPY package*.json ./
 
-# Install dependencies
-RUN cd client && npm install
-RUN cd server && npm install
+# Install dependencies.
+RUN npm install
 
-# Copy all files to build the client
-COPY client/ ./client/
+# Copy the rest of the application code.
+COPY . .
 
-# Build the client
-RUN cd client && npm run build
+# Build the client-side code.
+RUN npm run build
 
-# Stage 2: Run
-FROM node:16-alpine
-
-WORKDIR /app
-
-# Copy server files
-COPY server/ ./server/
-COPY --from=build /app/client/dist ./client/dist
-
-# Expose port
+# Expose the port the app runs on.
 EXPOSE 3000
 
-# Start the server
-CMD ["node", "server/server.js"]
+# Start the server.
+CMD ["npm", "start"]
