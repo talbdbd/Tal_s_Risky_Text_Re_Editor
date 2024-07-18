@@ -23,7 +23,8 @@ Node is required to install all packages and run the server.
 ## Usage
 
 Simple text editor that you can run on or offline!
-Link: https://tal-s-risky-text-re-editor.onrender.comLinks to an external site.
+Link: https://tal-s-risky-text-re-editor.onrender.com
+![Screenshot](./client/src/images/Screenshot.png)
 
 
 ## Credits
