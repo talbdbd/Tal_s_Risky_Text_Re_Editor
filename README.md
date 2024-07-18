@@ -18,7 +18,7 @@ The goal of this project was to create a PWA Text Editor.
 
 ## Installation
 
-Npm is required to install all required packages and run the server.
+Node is required to install all packages and run the server.
 
 ## Usage
 
@@ -43,8 +43,6 @@ This project has no active licenses.
 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#1172B8"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#33AADD"></path> <path d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z" fill="white"></path> </g></svg>
 
 <svg viewBox="0 -159.5 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <polygon fill="#3D3D3D" points="376.818362 158.243566 391.609181 120.840549 434.316067 120.840549 414.048526 64.1021885 439.396722 3.2018623e-05 512.000001 192.769205 458.457706 192.769205 446.051149 158.243566"> </polygon> <polygon fill="#5A0FC8" points="331.139673 192.76973 408.862952 0.000304174426 357.335083 0.000560323934 304.16787 124.572484 266.360657 0.00081647082 226.753837 0.00081647082 186.158952 124.572484 157.530493 67.8076311 131.622821 147.624549 157.926821 192.76973 208.636591 192.76973 245.320394 81.0556311 280.296394 192.76973"> </polygon> <path d="M48.9117387,126.594779 L80.6502305,126.594779 C90.2643944,126.594779 98.8254436,125.52173 106.333378,123.375631 L114.541378,98.0882869 L137.481444,27.4139262 C135.733509,24.6434344 133.737968,22.0239459 131.494821,19.5558016 C119.71646,6.51845082 102.483673,0 79.7959354,0 L0,0 L0,192.769205 L48.9117387,192.769205 L48.9117387,126.594779 Z M90.9224928,44.3484836 C95.5231485,48.9787787 97.8232141,55.1749754 97.8232141,62.9375984 C97.8232141,70.7597623 95.8001321,76.9635656 91.7542305,81.5490082 C87.3188207,86.6440902 79.1517387,89.1915 67.2535092,89.1915 L48.9117387,89.1915 L48.9117387,37.4026475 L67.3883289,37.4026475 C78.477378,37.4026475 86.3220994,39.7179262 90.9224928,44.3484836 Z" fill="#3D3D3D"> </path> </g> </g></svg>
-
-<svg xmlns="http://www.w3.org/2000/svg" aria-label="Docker" role="img" viewBox="0 0 512 512" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#ffffff"></rect><path stroke="#066da5" stroke-width="38" d="M296 226h42m-92 0h42m-91 0h42m-91 0h41m-91 0h42m8-46h41m8 0h42m7 0h42m-42-46h42"></path><path fill="#066da5" d="m472 228s-18-17-55-11c-4-29-35-46-35-46s-29 35-8 74c-6 3-16 7-31 7H68c-5 19-5 145 133 145 99 0 173-46 208-130 52 4 63-39 63-39"></path></g></svg>
 
 ## Tests
 
