@@ -3,13 +3,13 @@ services:
     name: text-editor-app
     env: node
     plan: free
-    buildCommand: npm run build
-    startCommand: npm start
+    buildCommand: npm install
+    startCommand: npm run start
     envVars:
       - key: NODE_ENV
-        value: development
+        value: production
       - key: PORT
-        value: "3000"
-    regions:
-      - oregon
-    healthCheckPath: /
+        value: 3000
+    branches:
+      only:
+        - main
