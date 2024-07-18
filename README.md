@@ -18,15 +18,15 @@ The goal of this project was to create a PWA Text Editor.
 
 ## Installation
 
-
+Npm is required to install all required packages and run the server.
 
 ## Usage
 
-
+Simple text editor that you can run on or offline!
 
 ## Credits
 
-
+No other developer's code was added.
 
 ## License
 
