@@ -7,7 +7,9 @@ services:
     startCommand: npm start
     envVars:
       - key: NODE_ENV
-        value: production
+        value: development
+      - key: PORT
+        value: "3000"
     regions:
       - oregon
     healthCheckPath: /
